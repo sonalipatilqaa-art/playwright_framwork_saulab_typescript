@@ -1,0 +1,12 @@
+[2026-01-29T08:48:58.573Z] info: => browser.newContext started
+[2026-01-29T08:48:58.578Z] info: <= browser.newContext succeeded
+[2026-01-29T08:48:58.579Z] info: => browserContext.newPage started
+[2026-01-29T08:48:58.611Z] info: <= browserContext.newPage succeeded
+[2026-01-29T08:48:58.613Z] info: => page.goto started
+[2026-01-29T08:48:59.774Z] info: <= page.goto succeeded
+[2026-01-29T08:48:59.774Z] info: demo message
+[2026-01-29T08:48:59.775Z] info: => page.title started
+[2026-01-29T08:48:59.777Z] info: <= page.title succeeded
+[2026-01-29T08:48:59.778Z] info: title verified
+[2026-01-29T08:48:59.812Z] info: => browserContext.close started
+[2026-01-29T08:48:59.815Z] info: <= browserContext.close succeeded

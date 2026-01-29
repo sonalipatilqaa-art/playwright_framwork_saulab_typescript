@@ -1,0 +1,13 @@
+[2026-01-29T08:01:59.623Z] info: => browser.newContext started
+[2026-01-29T08:01:59.626Z] info: <= browser.newContext succeeded
+[2026-01-29T08:01:59.627Z] info: => browserContext.newPage started
+[2026-01-29T08:01:59.652Z] info: <= browserContext.newPage succeeded
+[2026-01-29T08:01:59.652Z] info: => page.goto started
+[2026-01-29T08:02:00.262Z] info: <= page.goto succeeded
+[2026-01-29T08:02:00.263Z] info: demo message
+[2026-01-29T08:02:00.265Z] info: => locator.fill started
+[2026-01-29T08:02:29.677Z] info: => browserContext.close started
+[2026-01-29T08:02:29.682Z] info: <= locator.fill failed
+[2026-01-29T08:02:29.683Z] info: <= browserContext.close succeeded
+[2026-01-29T08:02:29.688Z] info: => browser.close started
+[2026-01-29T08:02:29.708Z] info: <= browser.close succeeded

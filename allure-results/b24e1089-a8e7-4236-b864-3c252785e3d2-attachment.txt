@@ -1,0 +1,16 @@
+[2026-01-29T05:36:53.558Z] info: => browser.newContext started
+[2026-01-29T05:36:53.667Z] info: <= browser.newContext succeeded
+[2026-01-29T05:36:53.669Z] info: => browserContext.newPage started
+[2026-01-29T05:36:54.177Z] info: <= browserContext.newPage succeeded
+[2026-01-29T05:36:54.179Z] info: => page.goto started
+[2026-01-29T05:36:54.801Z] info: <= page.goto succeeded
+[2026-01-29T05:36:54.804Z] info: => expect.toHaveTitle started
+[2026-01-29T05:36:54.820Z] info: <= expect.toHaveTitle succeeded
+[2026-01-29T05:36:54.824Z] info: => expect.toBeVisible started
+[2026-01-29T05:36:54.828Z] info: <= expect.toBeVisible succeeded
+[2026-01-29T05:36:54.829Z] info: => page.fill started
+[2026-01-29T05:37:23.625Z] info: => browserContext.close started
+[2026-01-29T05:37:23.646Z] info: <= page.fill failed
+[2026-01-29T05:37:23.654Z] info: <= browserContext.close succeeded
+[2026-01-29T05:37:23.659Z] info: => browser.close started
+[2026-01-29T05:37:24.148Z] info: <= browser.close succeeded

@@ -1,0 +1,9 @@
+[2026-01-29T08:45:55.627Z] info: => browser.newContext started
+[2026-01-29T08:45:55.638Z] info: <= browser.newContext succeeded
+[2026-01-29T08:45:55.641Z] info: => browserContext.newPage started
+[2026-01-29T08:45:55.949Z] info: <= browserContext.newPage succeeded
+[2026-01-29T08:45:55.950Z] info: <= page.goto failed
+[2026-01-29T08:45:56.027Z] info: => browserContext.close started
+[2026-01-29T08:45:56.030Z] info: <= browserContext.close succeeded
+[2026-01-29T08:45:56.034Z] info: => browser.close started
+[2026-01-29T08:45:56.044Z] info: <= browser.close succeeded

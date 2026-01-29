@@ -1,0 +1,114 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic "Search settings" [ref=e4]:
+        - button "Main menu" [ref=e5]:
+          - img [ref=e6]
+      - generic [ref=e9]:
+        - generic [ref=e10]: All
+        - link "Images" [ref=e11] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?sca_esv=02d96f4dae5a5963&output=search&tbm=isch&tbo=u&sa=X&ved=0ahUKEwiMlNnqrrCSAxUtc_UHHbpmEB0Q0tQDCAUoAQ
+      - generic [ref=e17]:
+        - button "Google apps" [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+        - link "Sign in" [ref=e25] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ
+    - generic [ref=e26]:
+      - img "Google" [ref=e28]
+      - generic [ref=e35]:
+        - search [ref=e37]:
+          - generic [ref=e40]:
+            - button "Google Search" [ref=e41]:
+              - img [ref=e44]
+            - combobox [ref=e46]:
+              - textbox "Google Search" [ref=e47]:
+                - /placeholder: ""
+            - generic [ref=e48]:
+              - button "Search by voice" [ref=e49] [cursor=pointer]:
+                - img "Search by voice" [ref=e50]
+              - link "Search using your camera or photos" [ref=e53] [cursor=pointer]:
+                - /url: https://search.app.goo.gl/?ofl=https%3A%2F%2Flens.google&al=googleapp%3A%2F%2Flens%3Flens_data%3DKAw&apn=com.google.android.googlequicksearchbox&amv=301204913&isi=284815942&ius=googleapp&ibi=com.google.GoogleMobile&link=https%3A%2F%2Fgoo.gl%2Fiosgoogleapp%2Fdefault%3Furl%3Dgoogleapp%253A%252F%252Flens%253Fmin-version%253D180%2526lens_data%253DKAw&ifl=https%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Fgoogle%2Fid284815942%3Fppid%3D1ac8cc35-d99c-4a1d-b909-321c8968cc74%26pt%3D9008%26mt%3D8%26ct%3D4815459-oo-lens-isb-bar-lens-cam%26UTM_campaign%3Dgoogle_search_mweb&efr=1&ct=4815459-oo-lens-isb-bar-lens-cam&utm_campaign=4815459-oo-lens-isb-bar-lens-cam&utm_source=google_search_mweb&utm_medium=owned&pt=9008&mt=8
+                - img [ref=e54]
+        - generic [ref=e58]:
+          - generic [ref=e59]: "Google offered in:"
+          - generic [ref=e60]:
+            - link "हिन्दी" [ref=e61] [cursor=pointer]:
+              - /url: https://www.google.com/setprefs?sig=0_ANkZHOOg8RJbfIXZJJ0pYJs8iUk%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwiMlNnqrrCSAxUtc_UHHbpmEB0Q2ZgBCBs
+            - link "বাংলা" [ref=e62] [cursor=pointer]:
+              - /url: https://www.google.com/setprefs?sig=0_ANkZHOOg8RJbfIXZJJ0pYJs8iUk%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwiMlNnqrrCSAxUtc_UHHbpmEB0Q2ZgBCBw
+            - link "తెలుగు" [ref=e63] [cursor=pointer]:
+              - /url: https://www.google.com/setprefs?sig=0_ANkZHOOg8RJbfIXZJJ0pYJs8iUk%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwiMlNnqrrCSAxUtc_UHHbpmEB0Q2ZgBCB0
+            - link "मराठी" [ref=e64] [cursor=pointer]:
+              - /url: https://www.google.com/setprefs?sig=0_ANkZHOOg8RJbfIXZJJ0pYJs8iUk%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwiMlNnqrrCSAxUtc_UHHbpmEB0Q2ZgBCB4
+            - link "தமிழ்" [ref=e65] [cursor=pointer]:
+              - /url: https://www.google.com/setprefs?sig=0_ANkZHOOg8RJbfIXZJJ0pYJs8iUk%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwiMlNnqrrCSAxUtc_UHHbpmEB0Q2ZgBCB8
+            - link "ગુજરાતી" [ref=e66] [cursor=pointer]:
+              - /url: https://www.google.com/setprefs?sig=0_ANkZHOOg8RJbfIXZJJ0pYJs8iUk%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwiMlNnqrrCSAxUtc_UHHbpmEB0Q2ZgBCCA
+            - link "ಕನ್ನಡ" [ref=e67] [cursor=pointer]:
+              - /url: https://www.google.com/setprefs?sig=0_ANkZHOOg8RJbfIXZJJ0pYJs8iUk%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwiMlNnqrrCSAxUtc_UHHbpmEB0Q2ZgBCCE
+            - link "മലയാളം" [ref=e68] [cursor=pointer]:
+              - /url: https://www.google.com/setprefs?sig=0_ANkZHOOg8RJbfIXZJJ0pYJs8iUk%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwiMlNnqrrCSAxUtc_UHHbpmEB0Q2ZgBCCI
+            - link "ਪੰਜਾਬੀ" [ref=e69] [cursor=pointer]:
+              - /url: https://www.google.com/setprefs?sig=0_ANkZHOOg8RJbfIXZJJ0pYJs8iUk%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwiMlNnqrrCSAxUtc_UHHbpmEB0Q2ZgBCCM
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - heading "Trending searches" [level=1] [ref=e73]
+            - button "More options" [ref=e76] [cursor=pointer]:
+              - img [ref=e79]
+          - list [ref=e81]:
+            - link "what is ugc bill in india" [ref=e82]:
+              - link "what is ugc bill in india" [ref=e83] [cursor=pointer]:
+                - /url: /search?q=what%20is%20ugc%20bill%20in%20india&oq&ved=0ahUKEwiMlNnqrrCSAxUtc_UHHbpmEB0Q470GCCo&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgAEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD7gmyBgYQbxhvKAE&gs_ss=1
+                - img [ref=e85]
+                - generic [ref=e88]: what is ugc bill in india
+            - link "jee main" [ref=e89]:
+              - link "jee main" [ref=e90] [cursor=pointer]:
+                - /url: /search?q=jee%20main&oq&ved=0ahUKEwiMlNnqrrCSAxUtc_UHHbpmEB0Q470GCCo&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgBEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD7gmyBgYQbxhvKAE&gs_ss=1
+                - img [ref=e92]
+                - generic [ref=e95]: jee main
+            - link "silver price gold price" [ref=e96]:
+              - link "silver price gold price" [ref=e97] [cursor=pointer]:
+                - /url: /search?q=silver%20price%20gold%20price&oq&ved=0ahUKEwiMlNnqrrCSAxUtc_UHHbpmEB0Q470GCCo&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgCEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD7gmyBgYQbxhvKAE&gs_ss=1
+                - img [ref=e99]
+                - generic [ref=e102]: silver price gold price
+            - link "playstation plus games" [ref=e103]:
+              - link "playstation plus games" [ref=e104] [cursor=pointer]:
+                - /url: /search?q=playstation%20plus%20games&oq&ved=0ahUKEwiMlNnqrrCSAxUtc_UHHbpmEB0Q470GCCo&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgDEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD7gmyBgYQbxhvKAE&gs_ss=1
+                - img [ref=e106]
+                - generic [ref=e109]: playstation plus games
+            - link "nipah virus outbreak" [ref=e110]:
+              - link "nipah virus outbreak" [ref=e111] [cursor=pointer]:
+                - /url: /search?q=nipah%20virus%20outbreak&oq&ved=0ahUKEwiMlNnqrrCSAxUtc_UHHbpmEB0Q470GCCo&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgEEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD7gmyBgYQbxhvKAE&gs_ss=1
+                - img [ref=e113]
+                - generic [ref=e116]: nipah virus outbreak
+            - link "red auroras hanle ladakh" [ref=e117]:
+              - link "red auroras hanle ladakh" [ref=e118] [cursor=pointer]:
+                - /url: /search?q=red%20auroras%20hanle%20ladakh&oq&ved=0ahUKEwiMlNnqrrCSAxUtc_UHHbpmEB0Q470GCCo&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgFEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD7gmyBgYQbxhvKAE&gs_ss=1
+                - img [ref=e120]
+                - generic [ref=e123]: red auroras hanle ladakh
+            - link "weather warnings storm chandra" [ref=e124]:
+              - link "weather warnings storm chandra" [ref=e125] [cursor=pointer]:
+                - /url: /search?q=weather%20warnings%20storm%20chandra&oq&ved=0ahUKEwiMlNnqrrCSAxUtc_UHHbpmEB0Q470GCCo&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgGEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD7gmyBgYQbxhvKAE&gs_ss=1
+                - img [ref=e127]
+                - generic [ref=e130]: weather warnings storm chandra
+    - generic [ref=e133]:
+      - generic [ref=e135]: India
+      - generic [ref=e136]:
+        - 'link "Dark theme: off" [ref=e137] [cursor=pointer]':
+          - /url: "#"
+        - button "Settings" [ref=e141] [cursor=pointer]
+        - link "Privacy" [ref=e142] [cursor=pointer]:
+          - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+        - link "Terms" [ref=e143] [cursor=pointer]:
+          - /url: https://policies.google.com/terms?hl=en-IN&fg=1
+  - generic [ref=e145]:
+    - link "Advertising" [ref=e146] [cursor=pointer]:
+      - /url: https://www.google.com/intl/en_in/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+    - link "Business" [ref=e147] [cursor=pointer]:
+      - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+    - link "About" [ref=e148] [cursor=pointer]:
+      - /url: https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1
+```
