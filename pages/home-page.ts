@@ -36,10 +36,17 @@ export class HomePage extends PageBase {
     }
 
     async search(text: string) {
-        // Ensure the input is ready before typing
-        await this.searchInput.waitFor({ state: 'visible' });
-        await this.searchInput.fill(text);
-        await this.searchInput.press('Enter');
-        this.logger.info(`Search for "${text}" started`);
+    // Log visibility for debugging
+    const isVisible = await this.searchInput.isVisible();
+    this.logger.info(`Search input visible: ${isVisible}`);
+
+    // If on Mobile, Google sometimes needs a click before it allows filling
+    if (this.page.viewport()?.width && this.page.viewport()!.width < 768) {
+        await this.searchInput.click();
     }
+
+    await this.searchInput.fill(text);
+    await this.searchInput.press('Enter');
+    this.logger.info(`Search for "${text}" started`);
+}
 }
