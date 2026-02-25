@@ -15,8 +15,7 @@ const config: PlaywrightTestConfig = {
   reporter: [
     ['html'],
     ['allure-playwright'],
-    ['./utils/emailReporter.ts'],
-    ['./utils/dailyAllureEmailReporter.ts']
+    ['./utils/testMailReporter.ts']
   ],
   use: {
     baseURL: 'https://www.google.com/',
