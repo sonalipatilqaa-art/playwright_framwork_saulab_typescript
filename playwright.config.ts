@@ -24,8 +24,8 @@ const config: PlaywrightTestConfig = {
     trace: 'on-first-retry',
     locale: 'en-IN',
     timezoneId: 'Asia/Kolkata',
-    screenshot: 'only-on-failure',
-    video: 'retain-on-failure',
+    screenshot: 'on',
+    video: 'on',
     actionTimeout: 20000, // Increased to 20s to allow for modal handling
     viewport: { width: 1280, height: 720 },
   },
