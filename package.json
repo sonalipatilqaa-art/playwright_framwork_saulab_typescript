@@ -29,5 +29,8 @@
     "allure": "^3.0.1",
     "allure-playwright": "^3.4.5",
     "winston": "^3.7.2"
+  },
+  "dependencies": {
+    "nodemailer": "^8.0.1"
   }
 }

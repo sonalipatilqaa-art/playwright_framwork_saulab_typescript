@@ -1,6 +1,8 @@
 import type { PlaywrightTestConfig } from '@playwright/test';
 import { devices } from '@playwright/test';
 import { logger } from "@utils/logger";
+import EmailReporter from './utils/emailReporter';
+import DailyAllureEmailReporter from './utils/dailyAllureEmailReporter';
 
 const config: PlaywrightTestConfig = {
   testDir: './tests',
@@ -13,7 +15,9 @@ const config: PlaywrightTestConfig = {
   workers: process.env.CI ? 2 : undefined,
   reporter: [
     ['html'],
-    ['allure-playwright']
+    ['allure-playwright'],
+    [EmailReporter],
+    [DailyAllureEmailReporter]
   ],
   use: {
     baseURL: 'https://www.google.com/',
