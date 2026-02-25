@@ -4,15 +4,12 @@ import { logger } from "@utils/logger";
 
 const config: PlaywrightTestConfig = {
   testDir: './tests',
-  timeout: 45 * 1000, // Increased to 45s for CI stability
+  timeout: 60 * 1000, // Increased to 60s as Google redirects can be slow in CI
   expect: {
-    timeout: 7000 
+    timeout: 10000 
   },
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
-  /* FIX: Use 2 workers on CI. 
-     Your previous config had 1, which makes execution very slow. 
-  */
   workers: process.env.CI ? 2 : undefined,
   reporter: [
     ['html'],
@@ -20,14 +17,15 @@ const config: PlaywrightTestConfig = {
   ],
   use: {
     baseURL: 'https://www.google.com/',
-    /* FIX: Ensure headless is true for GitHub Actions 
-    */
+    // Force headless for CI to avoid XServer errors
     headless: process.env.CI ? true : false, 
     trace: 'on-first-retry',
-    locale:'en-IN',
+    locale: 'en-IN',
+    timezoneId: 'Asia/Kolkata',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    actionTimeout: 15000, // Give actions 15s to find elements
+    actionTimeout: 20000, // Increased to 20s to allow for modal handling
+    viewport: { width: 1280, height: 720 },
   },
 
   projects: [
