@@ -19,27 +19,3 @@ jobs:
         run: npm ci
       - name: Run Playwright tests
         run: npx playwright test
-      - name: Send email on success
-        if: success()
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          username: ${{ secrets.TEST_EMAIL_USER }}
-          password: ${{ secrets.TEST_EMAIL_PASS }}
-          subject: "✅ Playwright Tests Passed"
-          to: ${{ secrets.TEST_EMAIL_USER }}
-          from: Playwright CI <${{ secrets.TEST_EMAIL_USER }}>
-          body: "All Playwright tests passed successfully."
-      - name: Send email on failure
-        if: failure()
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          username: ${{ secrets.TEST_EMAIL_USER }}
-          password: ${{ secrets.TEST_EMAIL_PASS }}
-          subject: "❌ Playwright Tests Failed"
-          to: ${{ secrets.TEST_EMAIL_USER }}
-          from: Playwright CI <${{ secrets.TEST_EMAIL_USER }}>
-          body: "Some Playwright tests failed. Please check the workflow logs."
